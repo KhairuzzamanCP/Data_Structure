@@ -1,0 +1,20 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+int n;
+cin>>n;
+for(int i = 0; i<=n;i++){//O(Nlog(N))
+
+    int x =i;
+    while (x>0)
+    {
+        int dight =x%10;
+        cout<<dight<<" ";
+        x/=10;
+    }
+    cout<< endl;
+}
+ 
+return 0;
+}
+ 
