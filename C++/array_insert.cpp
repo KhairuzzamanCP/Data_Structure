@@ -15,7 +15,6 @@ int main()
     {
         ar[i] = ar[i - 1];
     }
-
     ar[pos] = val;
     for (int i = 0; i <= n; i++)
     {

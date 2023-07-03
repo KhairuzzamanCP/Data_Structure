@@ -30,7 +30,7 @@ void reverse(Node *head,Node *tail){
         j=j->prev;
     }
    
-    
+    swap(i->val,j->val);
 }
 int main(){
 Node *head =new Node(10);
